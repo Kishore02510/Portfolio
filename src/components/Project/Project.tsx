@@ -16,17 +16,19 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Serverless-Voting-Application" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Kishore02510/BusReservationProject" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
-                </a> </div>
+                </a>  */}
+                </div>
             </header>
             <div className="body">
-              <h3>Serverless Voting Application for Programming Languages</h3>
-              <p> Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency. </p>
+              <h3>Bus Reservation Console Application</h3>
+              <p>  
+              Developed a console-based bus reservation system that allows users to book and view tickets. Implemented using core Java and MySQL.. </p>
             </div>
-            <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>Core Java</li>JDBC <li></li> <li>SQL</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -37,21 +39,21 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
+                {/* <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a> */}
               </div>
             </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
-              <p>
-                Developed an interactive chatbot application using Streamlit, OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text extraction, enabling users to ask context-based questions on uploaded PDFs and general queries.
+              <h3>Billing Management System</h3>
+              <p>  
+              Developed a system to ensure accurate billing and prevent missing parts during invoice generation. The system streamlines customer service by quickly retrieving and printing bills when customers arrive. Built using HTML , JSP & servlets , SQL. and a user-friendly interface for efficient service tracking..
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
+                <li>HTML</li>
+                <li>JSP&Servlets</li>
+                <li>SQL</li>
               </ul>
             </footer>
           </div>
@@ -65,25 +67,24 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
+                <a href="https://github.com/Kishore02510/LeaveManagement" target="\_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                {/* <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
-              <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+              <h3> REST API's Leave Management System </h3>
+              <p> Developed REST APIs for managing leave configurations, leave types, and leave periods. Implemented CRUD operations (insert, update, delete, view) to streamline leave management. Built using Spring Boot and MySQL, ensuring efficient and scalable backend services.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>REST API's</li>
+                <li>Spring Boot</li>
+                <li>Postgres</li>
               </ul>
             </footer>
           </div>
@@ -94,30 +95,30 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Kishore02510/SpringSecurity" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="body">
-              <h3>MediBook: Medical Appointment Scheduler with Health History</h3>
-              <p>Developed a secure medical appointment management platform with CRUD functionality, utilizing role-based access control, encryption techniques, and a robust MySQL database with normalized schema design and stored procedures for efficient scheduling, data privacy, and reliable retrieval of patient records.</p>
+              <h3>Secure Login System</h3>
+              <p>Developed a login form with authentication and authorization using Spring Security. Integrated Spring Boot with PostgreSQL for secure user management and implemented a responsive UI using Bootstrap and JavaScript. Ensured robust security measures like password encryption and role-based access control.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>PHP</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>MySQL</li>
+                <li>Bootstrap</li>
+                <li>Js</li>
+                <li>Spirng Boot</li>
+                <li>Postgres</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -145,9 +146,9 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
-        <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -172,7 +173,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
